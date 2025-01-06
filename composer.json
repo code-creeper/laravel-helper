@@ -18,5 +18,12 @@
     "illuminate/contracts": "^9.21|^10.0|^11.0",
     "illuminate/queue": "^9.21|^10.0|^11.0",
     "illuminate/support": "^9.21|^10.0|^11.0"
-  }
+  },
+  "extra": {
+        "laravel": {
+            "providers": [
+                "CodeCreeper\\LaravelHelper\\LaravelHelperServiceProvider"
+            ]
+        }
+    }
 }
