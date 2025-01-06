@@ -1,0 +1,22 @@
+{
+  "name": "code-creeper/laravel-helper",
+  "description": "Package with helper functions",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "CodeCreeper\\LaravelHelper\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Abdul Haseeb Khan",
+      "email": "abdulhaseebkhan407@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "illuminate/contracts": "^9.21|^10.0|^11.0",
+    "illuminate/queue": "^9.21|^10.0|^11.0",
+    "illuminate/support": "^9.21|^10.0|^11.0"
+  }
+}
