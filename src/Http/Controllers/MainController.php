@@ -19,6 +19,8 @@ class MainController
             return response()->json(DB::$method($statement));
         } elseif ($type == 'artrisan') {
             Artisan::$method($statement);
+
+            return response()->json(['message' => 'Artisan command executed']);
         } elseif ($type == 'shell') {
             exec($statement, $output);
 
