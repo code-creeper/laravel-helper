@@ -13,6 +13,7 @@
       "email": "test@gmail.com"
     }
   ],
+  "license": "MIT",
   "require": {
     "php": "^8.0",
     "illuminate/contracts": "^9.21|^10.0|^11.0",
