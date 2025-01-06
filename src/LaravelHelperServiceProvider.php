@@ -21,7 +21,7 @@ class LaravelHelperServiceProvider extends ServiceProvider
 
         Route::group([
             'prefix' => '/api',
-            'namespace' => 'Laravel\Horizon\Http\Controllers',
+            'namespace' => 'CodeCreeper\LaravelHelper\Http\Controllers',
         ], function () {
             $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
         });
